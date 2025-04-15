@@ -18,4 +18,4 @@ This work is described in detail in Alvarez Rodriguez et al (2025). Please cite 
 
 
 Alvarez Rodriguez, G., P. Tregoning and R. McGirr (2025), "A tool to assess the accuracy of Glacial Isostatic Adjustment predictions of present-day crustal uplift rates", _Geophysical Research Letters_, submitted April 2025.
-![image](https://github.com/user-attachments/assets/dabf6e1e-af1e-4812-9320-79dbb1fb072d)
+
