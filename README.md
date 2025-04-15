@@ -1,5 +1,6 @@
 # **GIA Assessment Tool: A means of assessing the accuracy of GIA models through a combination of GPS height time series and GRACE/GRACE-FO temporal gravity field estimates.**
 
+### Alvarez Rodriguez, G., P. Tregoning and R. McGirr (2025), "A tool to assess the accuracy of Glacial Isostatic Adjustment predictions of present-day crustal uplift rates", _Geophysical Research Letters_, submitted April 2025.
 
 By subtracting viscoelastic spherical harmonic coefficients of a GIA model from observed temporal gravity field spherical harmonics (i.e. from GRACE/FO data), it becomes possible to calculate the corresponding elastic and viscoelastic vertical deformation that would result. Summing these two and comparing the reconstructed height time series with observed height changes (i.e. from GPS height time series) permits a direct assessment of the accuracy of the GIA model.
 
