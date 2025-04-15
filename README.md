@@ -27,6 +27,9 @@ We provide here three python scripts to permit users to perform the computations
 
 [repair_offsets.f90](repair_offsets.f90): fortran90 program to identify and repair offsets in GPS time series.
 
+## Input Data Files
+Input GAA dealiasing files, gridded GRACE/FO netcdf files and GIA model spherical harmonic coefficients can be downloaded from their native source locations and are also provided [here](https://rses.anu.edu.au/geodynamics/GIA_assess/sample_data)
+
 ## Output Data Files
 Reconstructed height time series for GPS sites in Fennoscandia, Laurentia and Greenland can be found [here](https://rses.anu.edu.au/geodynamics/GIA_assess/output) in hdf5 format using the mascon solutions of ANU, CSR, GSFC and JPL The results contained in these files can be plotted using [example_plot_h5.py](example_plot_h5.py)
 
