@@ -4,8 +4,7 @@
 By subtracting viscoelastic spherical harmonic coefficients of a GIA model from observed temporal gravity field spherical harmonics (i.e. from GRACE/FO data), it becomes possible to calculate the corresponding elastic and viscoelastic vertical deformation that would result. Summing these two and comparing the reconstructed height time series with observed height changes (i.e. from GPS height time series) permits a direct assessment of the accuracy of the GIA model.
 
 If the reconstructed velocity is too high then the GIA model has over-estimated the viscoelastic velocity, meaning tha the model has either melted too much ice in that region or has a rheology profile that is too stiff, and vice versa if the reconstructed velocity is too low.
-![Figure showing reconstructed vs observed height time series. From Alvarez Rodriguez et al (2025)]
-(https://rses.anu.edu.au/geodynamics/GIA_assess/Fig1.jpeg)
+![Figure showing reconstructed vs observed height time series. From Alvarez Rodriguez et al (2025)](Fig1.jpeg)
 
 ## Software
 We provide here three python scripts to permit users to perform the computations:
