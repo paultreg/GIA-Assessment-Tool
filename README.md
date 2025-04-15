@@ -27,6 +27,8 @@ We provide here three python scripts to permit users to perform the computations
 
 ![repair_offsets.f90](repair_offsets.f90): fortran90 program to identify and repair offsets in GPS time series.
 
+## Output Data Files
+Reconstructed height time series for GPS sites in Fennoscandia, Laurentia and Greenland can be found ![here](https://rses.anu.edu.au/geodynamics/GIA_assess/output) in hdf5 format using the mascon solutions of ANU, CSR, GSFC and JPL The results contained in these files can be plotted using **example_plot_h5.py**
 
 ## Citation
 This work is described in detail in Alvarez Rodriguez et al (2025). Please cite this paper if you use this code.
