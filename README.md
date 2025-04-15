@@ -16,7 +16,7 @@ We provide here three python scripts to permit users to perform the computations
 
 **SI_information.tar.gz**: tarfile containing scripts and sample input data for running these python scripts.
 
-**GIA_assess_functions.tar**: tarfile of just the python functions required
+**GIA_assess_functions.tar**: tarfile of just the python functions required to run the above scripts
 
 **repair_offsets.f90**: fortran90 program to identify and repair offsets in GPS time series.
 
