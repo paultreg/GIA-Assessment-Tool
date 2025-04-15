@@ -1,3 +1,6 @@
+**GIA Assessment Tool: A means of assessing the accuracy of GIA models through a combination of GPS height time series and GRACE/GRACE-FO temporal gravity field estimates.**
+
+
 By subtracting viscoelastic spherical harmonic coefficients of a GIA model from observed temporal gravity field spherical harmonics (i.e. from GRACE/FO data), it becomes possible to calculate the corresponding elastic and viscoelastic vertical deformation that would result. Summing these two and comparing the reconstructed height time series with observed height changes (i.e. from GPS height time series) permits a direct assessment of the accuracy of the GIA model.
 
 If the reconstructed velocity is too high then the GIA model has over-estimated the viscoelastic velocity, meaning tha the model has either melted too much ice in that region or has a rheology profile that is too stiff, and vice versa if the reconstructed velocity is too low.
