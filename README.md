@@ -1,10 +1,11 @@
-**GIA Assessment Tool: A means of assessing the accuracy of GIA models through a combination of GPS height time series and GRACE/GRACE-FO temporal gravity field estimates.**
+# **GIA Assessment Tool: A means of assessing the accuracy of GIA models through a combination of GPS height time series and GRACE/GRACE-FO temporal gravity field estimates.**
 
 
 By subtracting viscoelastic spherical harmonic coefficients of a GIA model from observed temporal gravity field spherical harmonics (i.e. from GRACE/FO data), it becomes possible to calculate the corresponding elastic and viscoelastic vertical deformation that would result. Summing these two and comparing the reconstructed height time series with observed height changes (i.e. from GPS height time series) permits a direct assessment of the accuracy of the GIA model.
 
 If the reconstructed velocity is too high then the GIA model has over-estimated the viscoelastic velocity, meaning tha the model has either melted too much ice in that region or has a rheology profile that is too stiff, and vice versa if the reconstructed velocity is too low.
 
+## Software
 We provide here three python scripts to permit users to perform the computations:
 
 **compute.py** : generates the reconstructed height time series. Inputs are 1) GRACE/FO mascon solution on 0,25 degree global grid, 2) files of GIA model(s) spherical harmonic coefficients, 3) list of GPS height time series.
@@ -15,8 +16,12 @@ We provide here three python scripts to permit users to perform the computations
 
 **SI_information.tar.gz**: tarfile containing scripts and sample input data for running these python scripts.
 
+**GIA_assess_functions.tar**: tarfile of just the python functions required
+
 **repair_offsets.f90**: fortran90 program to identify and repair offsets in GPS time series.
 
+
+## Citation
 This work is described in detail in Alvarez Rodriguez et al (2025). Please cite this paper if you use this code.
 
 
