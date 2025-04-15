@@ -1,7 +1,11 @@
-# **GIA Assessment Tool: A means of assessing the accuracy of GIA models through a combination of GPS height time series and GRACE/GRACE-FO temporal gravity field estimates.**
+# A tool to assess the accuracy of Glacial Isostatic Adjustment predictions of present-day crustal uplift rates
+### Alvarez Rodriguez, G., P. Tregoning and R. McGirr (2025),  _Geophysical Research Letters_, submitted April 2025.
 
-### Alvarez Rodriguez, G., P. Tregoning and R. McGirr (2025), "A tool to assess the accuracy of Glacial Isostatic Adjustment predictions of present-day crustal uplift rates", _Geophysical Research Letters_, submitted April 2025.
+### Abstract
+Ongoing glacial isostatic adjustment (GIA) is detectable in geodetic height time series and changes in the temporal gravity field. Global GIA models are often used to remove these signals from data but quantifying the errors in such models is difficult due to insufficient knowledge of Earth rheology and past ice history on Earth. Here we describe how estimates of Earth's temporal gravity field and observed height time series can be used to quantify errors in GIA models. We tested several GIA models in Fennoscandia, Laurentia and Greenland and found spatial coherence in the pattern of errors, with RMS velocity errors of ~1 mm/yr, ~2 mm/yr and ~5 mm/yr, respectively. Surprising, there are substantial similarities in the errors of the models tested. Our diagnostic tool can be used to identify regions where ice histories and/or Earth rheology parameters are deficient in the GIA models.
 
+
+## How is it done?
 By subtracting viscoelastic spherical harmonic coefficients of a GIA model from observed temporal gravity field spherical harmonics (i.e. from GRACE/FO data), it becomes possible to calculate the corresponding elastic and viscoelastic vertical deformation that would result. Summing these two and comparing the reconstructed height time series with observed height changes (i.e. from GPS height time series) permits a direct assessment of the accuracy of the GIA model.
 
 If the reconstructed velocity is too high then the GIA model has over-estimated the viscoelastic velocity, meaning tha the model has either melted too much ice in that region or has a rheology profile that is too stiff, and vice versa if the reconstructed velocity is too low.
