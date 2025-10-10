@@ -1,6 +1,6 @@
 # A tool to assess the accuracy of Glacial Isostatic Adjustment predictions of present-day crustal uplift rates
 ### Guadalupe Alvarez Rodriguez, Paul Tregoning and Rebecca McGirr
-### _Geophysical Research Letters_, accepted 3 September, 2025.
+### _Geophysical Research Letters_, 52, e2025GL116421. [https://doi.org/10.1029/2025GL116421](https://doi.org/10.1029/2025GL116421).
 
 ### Abstract
 > Ongoing glacial isostatic adjustment (GIA) is detectable in geodetic height time series and changes in the temporal gravity field. Global GIA models are often used to remove these signals from data but quantifying the errors in such models is difficult due to insufficient knowledge of Earth rheology and past ice history on Earth. Here we describe how estimates of Earth's temporal gravity field and observed height time series can be used to quantify errors in GIA models. We tested several GIA models in Fennoscandia, Laurentia and Greenland and found spatial coherence in the pattern of errors, with RMS velocity errors of ~1 mm/yr, ~2 mm/yr and ~5 mm/yr, respectively. Surprising, there are substantial similarities in the errors of the models tested. Our diagnostic tool can be used to identify regions where ice histories and/or Earth rheology parameters are deficient in the GIA models.
