@@ -37,6 +37,3 @@ Reconstructed height time series for GPS sites in Fennoscandia, Laurentia and Gr
 This work is described in detail in Alvarez Rodriguez et al (2025). Please cite this paper if you use this code.
 
 Alvarez Rodriguez, G., Tregoning, P., & McGirr, R. (2025). A tool to assess the accuracy of glacial isostatic adjustment predictions of present‐day crustal uplift rates. _Geophysical Research Letters_, 52, e2025GL116421. [https://doi.org/10.1029/2025GL116421](https://doi.org/10.1029/2025GL116421).
-
-Alvarez Rodriguez, G., P. Tregoning and R. McGirr (2025), "A tool to assess the accuracy of Glacial Isostatic Adjustment predictions of present-day crustal uplift rates", _Geophysical Research Letters_, Accepted September 2025.
-
